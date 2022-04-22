@@ -208,3 +208,6 @@ footer .barra-footer .container-contingencia .box-right {
 #rede-social h2 + * {
   margin-top: 20px;
 }
+#depoimentos .container-contingencia {
+  max-width: 400px;
+}

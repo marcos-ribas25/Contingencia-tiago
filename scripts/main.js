@@ -40,12 +40,14 @@ $('.owl-depoimentos').owlCarousel({
     items: 2,
     responsive: {
         0: {
-            margin: 20,
+            margin: 0,
             items: 1,
         },
-        1200: {
+        1024: {
             margin: 20,
-            items: 2,
+        },
+        1400: {
+            margin: 30,
         },
         1600: {
             margin: 40,
