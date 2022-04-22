@@ -1,0 +1,15 @@
+.absolute-image-right {
+  display: none;
+}
+.absolute-image-top {
+  display: none;
+}
+#contato .container-contingencia {
+  justify-content: center;
+}
+#contato h2 {
+  text-align: center;
+}
+#contato h2 + * {
+  margin-top: 20px;
+}

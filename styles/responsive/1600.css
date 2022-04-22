@@ -1,0 +1,130 @@
+.bt.full {
+  max-width: 460px;
+}
+.logo {
+  max-width: 215px;
+}
+header .container-contingencia {
+  max-width: 1285px;
+}
+.banner-interna {
+  height: 765px;
+}
+.banner-interna h2 + * {
+  margin-top: 25px;
+}
+.banner-interna .container-contingencia {
+  padding-bottom: 130px;
+}
+#contato {
+  padding-top: 90px;
+}
+#contato .container-contingencia {
+  max-width: 1200px;
+}
+#contato .absolute-image-left {
+  max-width: 7vw;
+  bottom: -33px;
+}
+#contato .absolute-image-right {
+  bottom: -58px;
+}
+#contato h2 + * {
+  margin-top: 30px;
+}
+#contato form {
+  max-width: 700px;
+}
+#dados-curso {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+#dados-curso .container-contingencia {
+  max-width: 1330px;
+}
+#banner-servicos {
+  height: 745px;
+}
+#banner-servicos .container-contingencia {
+  max-width: 1180px;
+  padding-bottom: 175px;
+}
+#tratamento {
+  padding-top: 35px;
+}
+#tratamento h2 + * {
+  margin-top: 10px;
+}
+#tratamento p + * {
+  margin-top: 37px;
+}
+#tratamento .container-contingencia {
+  max-width: 1200px;
+}
+#tratamento .box-icones img {
+  max-width: 125px;
+}
+#tratamento .absolute-tratamento-left {
+  max-width: 6vw;
+  bottom: -30px;
+}
+#sobre-programa .container-contingencia {
+  max-width: 1300px;
+}
+#sobre-programa .absolute-sobre {
+  max-width: 825px;
+  top: -80px;
+}
+#sobre-programa .text {
+  padding-top: 45px;
+}
+#banner-sobre {
+  height: 745px;
+}
+#banner-sobre .container-contingencia {
+  max-width: 1205px;
+  padding-bottom: 160px;
+}
+#banner-sobre h2 {
+  font-size: 54px;
+}
+#banner-sobre h2 + * {
+  margin-top: 35px;
+}
+#banner-sobre .absolute-left {
+  max-width: 5.3vw;
+}
+#sobre .container-contingencia {
+  max-width: 1300px;
+}
+#sobre .absolute-sobre {
+  max-width: 825px;
+  top: -80px;
+}
+#sobre .text {
+  padding-top: 45px;
+}
+#sobre .text-image:nth-child(even) {
+  margin-top: 0;
+}
+#missao {
+  padding-top: 50px;
+}
+#rede-social {
+  padding-bottom: 20px;
+}
+#depoimentos {
+  padding-top: 20px;
+}
+#depoimentos h2 + * {
+  margin-top: 30px;
+}
+#depoimentos .container-contingencia {
+  max-width: 1135px;
+}
+#depoimentos .box-depoimentos {
+  padding: 35px 0 20px 50px;
+}
+#depoimentos .box-depoimentos p {
+  max-width: 420px;
+}

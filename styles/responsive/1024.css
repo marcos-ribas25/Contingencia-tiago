@@ -1,0 +1,210 @@
+.bt {
+  max-width: 230px;
+  height: 40px;
+}
+.bt.full .logo {
+  max-width: 170px;
+}
+.logo {
+  max-width: 140px;
+}
+header .block-bar {
+  display: flex !important;
+  margin-top: 20px;
+}
+header .container-contingencia {
+  max-width: 900px;
+}
+header.interna .block-bar div {
+  background-color: var(--branco);
+}
+footer {
+  padding-top: 40px;
+}
+footer address {
+  display: none;
+}
+footer .container-contingencia {
+  justify-content: center;
+  padding-bottom: 10px;
+}
+footer .container-contingencia .text {
+  display: none;
+}
+footer .barra-footer .container-contingencia {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+footer .barra-footer .container-contingencia .box-left a + * {
+  margin-left: 20px;
+}
+footer .barra-footer .container-contingencia .box-right {
+  max-width: 59px;
+}
+.box-menu.curso-interna {
+  background-color: var(--branco);
+  color: var(--azul);
+}
+#contato {
+  padding-top: 25px;
+}
+#contato h2 + * {
+  margin-top: 25px;
+}
+.banner-interna {
+  height: 750px;
+}
+.banner-interna .container-contingencia {
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 95px;
+}
+.banner-interna .text {
+  text-align: center;
+  max-width: 555px;
+}
+.banner-interna .text a {
+  margin: 25px auto 0;
+}
+.banner-interna .image {
+  max-width: 430px;
+}
+#dados-curso {
+  padding-bottom: 15px;
+}
+#dados-curso .container-contingencia {
+  flex-direction: column;
+  gap: 40px;
+}
+#dados-curso .text {
+  max-width: 775px;
+}
+#dados-curso .vagas {
+  max-width: 350px;
+  padding-top: 52px;
+  padding-left: 55px;
+}
+#banner-servicos {
+  height: 450px;
+  background-image: unset !important;
+  justify-content: center;
+}
+#banner-servicos .container-contingencia {
+  position: absolute;
+  padding-bottom: 110px;
+}
+#banner-servicos .absolute-left {
+  top: 155px;
+}
+#banner-servicos .absolute-image {
+  width: 100%;
+  position: relative;
+}
+#banner-servicos .absolute-image .absolute-mobile-top {
+  position: absolute;
+  width: 40vw;
+  top: 20px;
+  right: 0;
+}
+#banner-sobre {
+  background-image: none !important;
+  height: 550px;
+}
+#banner-sobre .absolute-banner-mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-size: cover;
+  background-position: bottom;
+  z-index: 2;
+}
+#banner-sobre .absolute-mobile-top {
+  bottom: 55px;
+  position: absolute;
+  right: 0;
+  max-width: 43.95vw;
+  z-index: 2;
+}
+#banner-sobre .container-contingencia {
+  justify-content: center;
+  padding-bottom: 120px;
+}
+#banner-sobre .bt.full {
+  margin: 15px auto 0;
+}
+#banner-sobre .text {
+  text-align: center;
+  max-width: 559px;
+}
+#banner-sobre h2 {
+  font-size: 42px;
+}
+#banner-sobre h2 + * {
+  margin-top: 15px;
+}
+#banner-sobre .absolute-left {
+  max-width: 6.5vw;
+  z-index: 3;
+}
+#sobre .container-contingencia {
+  flex-direction: column;
+  gap: 15px;
+}
+#sobre h3 {
+  text-align: center;
+}
+#sobre .background-absolute-text {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  max-width: 595px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+#missao .absolute-missao-left {
+  bottom: -90px;
+  max-width: 5vw;
+}
+#missao .container-contingencia {
+  max-width: 720px;
+}
+#missao h2 + * {
+  margin-top: 20px;
+}
+#missao .box-icones img {
+  max-width: 110px;
+}
+#missao .box-icones img + * {
+  margin-top: 10px;
+}
+#missao .box-icones h3 + * {
+  margin-top: 0;
+}
+#missao .box-icones p {
+  font-size: 13px;
+}
+#missao .bt {
+  max-width: 360px;
+}
+#rede-social {
+  padding-bottom: 10px;
+}
+#rede-social .container-contingencia {
+  padding-top: 85px;
+  padding-left: 110px;
+  max-width: 720px;
+}
+#rede-social h2 {
+  font-size: 29px;
+  max-width: 292px;
+}
+#rede-social h2 + * {
+  margin-top: 15px;
+}
+#rede-social h2 + * {
+  margin-top: 20px;
+}

@@ -1,0 +1,142 @@
+.bt.full {
+  max-width: 225px;
+  height: 32px;
+  padding-top: 1px;
+}
+.bt {
+  max-width: 225px;
+  height: 35px;
+}
+.logo {
+  max-width: 90px;
+}
+header .block-bar div {
+  height: 2px;
+  width: 30px;
+}
+#contato form {
+  max-width: 400px;
+}
+#contato input,
+#contato textarea {
+  max-width: 100%;
+  padding: 0 !important;
+}
+#contato .input-form {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 20px;
+  height: unset;
+}
+#contato .input-form input {
+  height: 25px;
+}
+#contato .input-form input,
+#contato .input-form textarea {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+#contato .input-form.textarea label {
+  border: 0;
+  margin: 0 0 5px;
+  padding: 0;
+}
+#contato .input-form.textarea textarea {
+  height: 90px;
+}
+#contato .buttons .bt {
+  max-width: 135px;
+  height: 31px;
+}
+.banner-interna {
+  height: 560px;
+}
+.banner-interna .container-contingencia {
+  max-width: 380px;
+}
+.banner-interna .image {
+  max-width: 290px;
+}
+.banner-interna .text {
+  max-width: 325px;
+}
+.banner-interna .text h2 {
+  font-size: 20px;
+}
+.banner-interna .text a {
+  margin-top: 15px;
+}
+#dados-curso {
+  padding-bottom: 0;
+}
+#dados-curso .container-contingencia {
+  max-width: 310px;
+}
+#dados-curso .vagas {
+  max-width: 280px;
+  padding-top: 30px;
+}
+#dados-curso .vagas .text h3 + * {
+  margin-top: 5px;
+}
+#dados-curso .vagas .text + * {
+  margin-top: 10px;
+}
+#banner-sobre {
+  height: 330px;
+}
+#banner-sobre .absolute-mobile-top {
+  bottom: -100px;
+}
+#banner-sobre .container-contingencia {
+  padding-bottom: 75px;
+}
+#banner-sobre .text {
+  max-width: 340px;
+}
+#banner-sobre h2 {
+  font-size: 22px;
+}
+#banner-sobre .bt.full {
+  font-size: 12px;
+}
+#sobre .text-image .text,
+#sobre .text-image:nth-child(even) .text {
+  max-width: 300px;
+}
+#sobre .text-image .text h3,
+#sobre .text-image:nth-child(even) .text h3 {
+  text-align: center;
+}
+#sobre .background-absolute-text {
+  bottom: 3px;
+  width: 620px;
+  left: -113px;
+  max-width: unset;
+}
+#missao {
+  padding-top: 17px;
+}
+#missao .absolute-missao-left {
+  display: none;
+}
+#rede-social {
+  padding: 5px 0;
+}
+#rede-social .container-contingencia {
+  max-width: 300px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+#rede-social h2 {
+  font-size: 15px;
+  max-width: 140px;
+}
+#rede-social h2 + * {
+  margin-top: 10px;
+}
+#rede-social .bt {
+  max-width: 120px;
+  height: 20px;
+}

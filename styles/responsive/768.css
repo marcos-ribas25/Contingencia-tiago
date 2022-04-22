@@ -1,0 +1,145 @@
+.bt.full {
+  max-width: 340px;
+  height: 40px;
+}
+.logo {
+  max-width: 125px;
+}
+footer .barra-footer .container-contingencia {
+  padding: 0 5px 13px;
+  gap: 5px;
+}
+footer .barra-footer .container-contingencia .box-right {
+  max-width: 49px;
+}
+.banner-interna h2 + * {
+  margin-top: 15px;
+}
+.banner-interna form {
+  max-width: 480px;
+}
+.banner-interna .buttons {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.banner-interna .buttons .bt {
+  max-width: 300px;
+}
+.banner-interna {
+  height: 680px;
+}
+.banner-interna .image {
+  max-width: 390px;
+}
+#curso .container-contingencia {
+  max-width: 480px;
+  gap: 20px;
+}
+#curso .text a {
+  margin-top: 20px;
+}
+#dados-curso {
+  padding-bottom: 20px;
+}
+#dados-curso .container-contingencia {
+  max-width: 410px;
+}
+#banner-sobre {
+  height: 465px;
+}
+#banner-sobre .absolute-mobile-top {
+  bottom: 15px;
+  right: -15px;
+}
+#banner-sobre .container-contingencia {
+  padding-bottom: 95px;
+}
+#banner-sobre .text {
+  max-width: 460px;
+}
+#banner-sobre h2 {
+  font-size: 36px;
+}
+#banner-sobre .absolute-left {
+  display: none;
+}
+#sobre {
+  padding-top: 0;
+}
+#sobre .container-contingencia {
+  gap: 10px;
+}
+#sobre .text-image .text {
+  max-width: 390px;
+}
+#sobre .text-image .text p {
+  line-height: 22px;
+}
+#sobre .text-image .image {
+  max-width: 360px;
+}
+#sobre .background-absolute-text {
+  bottom: 9px;
+  max-width: 480px;
+}
+#sobre .text-image:nth-child(even) {
+  padding-top: 20px;
+}
+#sobre .text-image:nth-child(even) .text {
+  width: 388px;
+  text-align: center;
+}
+#missao {
+  padding-top: 25px;
+}
+#missao .absolute-missao-left {
+  bottom: 70px;
+  max-width: 50px;
+}
+#missao .container-contingencia {
+  max-width: 720px;
+}
+#missao h2 + * {
+  margin-top: 20px;
+}
+#missao .icones {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#missao .box-icones img {
+  max-width: 85px;
+}
+#missao .box-icones img + * {
+  margin-top: 7px;
+}
+#missao .box-icones p {
+  font-size: 12px;
+}
+#missao .icones + * {
+  margin-top: 25px;
+}
+#missao .bt {
+  max-width: 325px;
+  height: 35px;
+}
+#rede-social {
+  padding-top: 15px;
+}
+#rede-social .container-contingencia {
+  max-width: 480px;
+  padding-top: 45px;
+  padding-left: 55px;
+}
+#rede-social h2 {
+  font-size: 24px;
+  max-width: 240px;
+}
+#rede-social h2 + * {
+  margin-top: 10px;
+}
+#rede-social .bt {
+  max-width: 185px;
+  height: 30px;
+}

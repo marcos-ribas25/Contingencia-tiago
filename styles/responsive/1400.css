@@ -1,0 +1,221 @@
+.bt {
+  max-width: 285px;
+  height: 46px;
+}
+.bt.full {
+  max-width: 350px;
+}
+.logo {
+  max-width: 190px;
+}
+header {
+  padding-bottom: 25px;
+}
+header .container-contingencia {
+  max-width: 1140px;
+}
+.banner-interna {
+  height: 685px;
+}
+.banner-interna .container-contingencia {
+  max-width: 1175px;
+  padding-bottom: 115px;
+}
+.banner-interna .image {
+  max-width: 600px;
+}
+.banner-interna .text {
+  max-width: 593px;
+}
+.banner-interna h2 + * {
+  margin-top: 20px;
+}
+footer .container-contingencia {
+  max-width: 1185px;
+}
+#contato {
+  padding-top: 45px;
+}
+#contato .container-contingencia {
+  max-width: 1085px;
+}
+#contato .absolute-image-left {
+  max-width: 6vw;
+  bottom: -33px;
+}
+#contato .absolute-image-right {
+  bottom: -62px;
+}
+#contato h2 + * {
+  margin-top: 25px;
+}
+#contato form {
+  max-width: 650px;
+}
+#dados-curso {
+  padding-bottom: 40px;
+}
+#dados-curso .container-contingencia {
+  align-items: center;
+  max-width: 1180px;
+}
+#dados-curso .text {
+  max-width: 685px;
+}
+#dados-curso .text p + * {
+  margin-top: 5px;
+}
+#dados-curso .vagas {
+  max-width: 390px;
+  padding-top: 55px;
+  padding-left: 60px;
+}
+#dados-curso .vagas .text h3 + * {
+  margin-top: 20px;
+}
+#banner-servicos {
+  height: 660px;
+}
+#banner-servicos .container-contingencia {
+  max-width: 990px;
+  padding-bottom: 135px;
+}
+#tratamento {
+  padding-top: 20px;
+}
+#tratamento h2 + * {
+  margin-top: 5px;
+}
+#tratamento p {
+  max-width: 910px;
+}
+#tratamento p + * {
+  margin-top: 20px;
+}
+#tratamento .container-contingencia {
+  max-width: 1060px;
+}
+#tratamento .box-icones {
+  width: 139px;
+}
+#tratamento .box-icones img {
+  max-width: 100px;
+  margin-top: 15px;
+}
+#tratamento .box-icones h3 {
+  font-size: 15px;
+}
+#tratamento .absolute-tratamento-left {
+  max-width: 5.5vw;
+  bottom: 10px;
+}
+#sobre-programa {
+  padding-top: 15px;
+}
+#sobre-programa .container-contingencia {
+  max-width: 1115px;
+  align-items: center;
+}
+#sobre-programa h3 {
+  max-width: 500px;
+}
+#sobre-programa .absolute-section-sobre {
+  bottom: 36%;
+  max-width: 4vw;
+}
+#sobre-programa .text-image .image {
+  max-width: 500px;
+}
+#sobre-programa .text-image .text {
+  max-width: 555px;
+  padding-top: 0;
+}
+#sobre-programa .text-image:nth-child(even) {
+  padding-top: 35px;
+}
+#banner-sobre {
+  height: 680px;
+}
+#banner-sobre .container-contingencia {
+  max-width: 1080px;
+  padding-bottom: 130px;
+}
+#banner-sobre .text {
+  max-width: 480px;
+}
+#banner-sobre h2 {
+  font-size: 49px;
+}
+#banner-sobre h2 + * {
+  margin-top: 20px;
+}
+#banner-sobre .absolute-left {
+  max-width: 4vw;
+  top: 280px;
+}
+#banner-sobre .bt.full {
+  max-width: 410px;
+}
+#sobre {
+  padding-top: 15px;
+}
+#sobre .container-contingencia {
+  max-width: 1115px;
+  align-items: center;
+}
+#sobre h3 {
+  max-width: 500px;
+}
+#sobre .absolute-sobre {
+  max-width: 50vw;
+  top: -50px;
+}
+#sobre .text-image .image {
+  max-width: 500px;
+}
+#sobre .text-image .text {
+  max-width: 555px;
+  padding-top: 0;
+}
+#sobre .text-image .text h3 + * {
+  margin-top: 0;
+}
+#sobre .text-image:nth-child(even) {
+  padding-top: 30px;
+}
+#sobre .text-image:nth-child(even) .text {
+  max-width: 490px;
+}
+#missao {
+  padding-top: 35px;
+}
+#missao .container-contingencia {
+  max-width: 1005px;
+}
+#missao .icones + * {
+  margin-top: 40px;
+}
+#rede-social .container-contingencia {
+  padding-top: 100px;
+}
+#rede-social h2 + * {
+  margin-top: 20px;
+}
+#depoimentos {
+  padding-top: 20px;
+}
+#depoimentos h2 + * {
+  margin-top: 20px;
+}
+#depoimentos .container-contingencia {
+  max-width: 1035px;
+}
+#depoimentos .box-depoimentos {
+  padding: 20px 0 20px 40px;
+}
+#depoimentos .box-depoimentos p {
+  max-width: 400px;
+}
+#depoimentos .box-depoimentos p + * {
+  margin-top: 8px;
+}
