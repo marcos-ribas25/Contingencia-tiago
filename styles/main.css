@@ -2075,6 +2075,7 @@ header.interna nav a {
     background-size: cover;
     background-position: bottom;
     z-index: 2;
+    max-width: 100%;
   }
   #banner-sobre .absolute-mobile-top {
     bottom: 55px;
