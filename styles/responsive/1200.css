@@ -185,3 +185,6 @@ footer .barra-footer .container-contingencia {
   padding-top: 0;
   max-width: 423px;
 }
+#depoimentos .container-contingencia {
+  max-width: 870px;
+}

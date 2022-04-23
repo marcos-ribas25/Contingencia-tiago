@@ -1171,18 +1171,29 @@ header.interna nav a {
 #depoimentos .box-depoimentos {
   background-image: url(../images/sobre-depoimentos-background-box.png);
   background-repeat: no-repeat;
-  padding: 50px 0 50px 80px;
+  padding: 2.6vw 6.25vw 2.6vw 4.17vw;
   color: var(--azul);
-  max-width: 630px;
   width: 100%;
   background-size: contain;
+  aspect-ratio: 630/306;
 }
-#depoimentos .box-depoimentos p {
-  max-width: 430px;
+#depoimentos .box-depoimentos .description {
   line-height: 24px;
+  height: calc(24px * 6);
+  overflow: auto;
+  padding-right: 10px;
+}
+#depoimentos .box-depoimentos .description::-webkit-scrollbar {
+  width: 4px;
+}
+#depoimentos .box-depoimentos .description::-webkit-scrollbar-track {
+  background: transparent;
+}
+#depoimentos .box-depoimentos .description::-webkit-scrollbar-thumb {
+  background: var(--azul);
 }
 #depoimentos .box-depoimentos p + * {
-  margin-top: 17px;
+  margin-top: 11px;
 }
 #depoimentos .owl-nav {
   text-align: end;
@@ -1493,17 +1504,15 @@ header.interna nav a {
   #depoimentos {
     padding-top: 20px;
   }
+  #depoimentos .container-contingencia {
+    max-width: 1200px;
+  }
   #depoimentos h2 + * {
     margin-top: 30px;
   }
-  #depoimentos .container-contingencia {
-    max-width: 1135px;
-  }
-  #depoimentos .box-depoimentos {
-    padding: 35px 0 20px 50px;
-  }
-  #depoimentos .box-depoimentos p {
-    max-width: 420px;
+  #depoimentos .box-depoimentos .description {
+    line-height: 22px;
+    height: calc(22px * 6);
   }
 }
 @media only screen and (max-width: 1400px) {
@@ -1713,25 +1722,26 @@ header.interna nav a {
   #depoimentos {
     padding-top: 20px;
   }
+  #depoimentos .container-contingencia {
+    max-width: 1000px;
+  }
   #depoimentos h2 + * {
     margin-top: 20px;
   }
-  #depoimentos .container-contingencia {
-    max-width: 1035px;
-  }
   #depoimentos .box-depoimentos {
-    padding: 20px 0 20px 40px;
+    padding: 3vw;
   }
-  #depoimentos .box-depoimentos p {
-    max-width: 400px;
-  }
-  #depoimentos .box-depoimentos p + * {
-    margin-top: 8px;
+  #depoimentos .box-depoimentos .description {
+    line-height: 20px;
+    height: calc(20px * 4);
   }
 }
 @media only screen and (max-width: 1300px) {
   #sobre .absolute-sobre {
     top: 0;
+  }
+  #depoimentos .container-contingencia {
+    max-width: 900px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -1922,6 +1932,9 @@ header.interna nav a {
     padding-top: 0;
     max-width: 423px;
   }
+  #depoimentos .container-contingencia {
+    max-width: 870px;
+  }
 }
 @media only screen and (max-width: 1100px) {
   .absolute-image-right {
@@ -2062,6 +2075,7 @@ header.interna nav a {
     background-size: cover;
     background-position: bottom;
     z-index: 2;
+    max-width: 100%;
   }
   #banner-sobre .absolute-mobile-top {
     bottom: 55px;
@@ -2150,6 +2164,9 @@ header.interna nav a {
   }
   #rede-social h2 + * {
     margin-top: 20px;
+  }
+  #depoimentos .container-contingencia {
+    max-width: 400px;
   }
   .sumir {
     display: none;

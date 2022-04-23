@@ -116,15 +116,13 @@ header .container-contingencia {
 #depoimentos {
   padding-top: 20px;
 }
+#depoimentos .container-contingencia {
+  max-width: 1200px;
+}
 #depoimentos h2 + * {
   margin-top: 30px;
 }
-#depoimentos .container-contingencia {
-  max-width: 1135px;
-}
-#depoimentos .box-depoimentos {
-  padding: 35px 0 20px 50px;
-}
-#depoimentos .box-depoimentos p {
-  max-width: 420px;
+#depoimentos .box-depoimentos .description {
+  line-height: 22px;
+  height: calc(22px * 6);
 }
