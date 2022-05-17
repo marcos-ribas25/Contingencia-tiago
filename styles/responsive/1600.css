@@ -2,10 +2,19 @@
   max-width: 460px;
 }
 .logo {
-  max-width: 215px;
+  max-width: 190px;
 }
-header .container-contingencia {
-  max-width: 1285px;
+.contato {
+  padding-top: 50px;
+}
+.contato .container-contingencia {
+  max-width: 1200px;
+}
+.contato h2 + * {
+  margin-top: 25px;
+}
+.contato p + * {
+  margin-top: 35px;
 }
 .banner-interna {
   height: 765px;
@@ -16,24 +25,145 @@ header .container-contingencia {
 .banner-interna .container-contingencia {
   padding-bottom: 130px;
 }
-#contato {
-  padding-top: 90px;
+.banner-text {
+  padding-top: 260px;
+  padding-bottom: 130px;
 }
-#contato .container-contingencia {
+.tratamento {
+  padding-top: 35px;
+}
+.tratamento h2 + * {
+  margin-top: 10px;
+}
+.tratamento p + * {
+  margin-top: 37px;
+}
+.tratamento .container-contingencia {
   max-width: 1200px;
 }
-#contato .absolute-image-left {
-  max-width: 7vw;
-  bottom: -33px;
+.tratamento .box-icones img {
+  max-width: 125px;
 }
-#contato .absolute-image-right {
-  bottom: -58px;
+.tratamento .absolute-tratamento-left {
+  max-width: 6vw;
+  bottom: -30px;
 }
-#contato h2 + * {
+.rede-social {
+  padding-bottom: 20px;
+}
+.depoimentos {
+  padding-top: 20px;
+  padding-bottom: 75px;
+}
+.depoimentos .container-contingencia {
+  max-width: 1200px;
+}
+.depoimentos h2 + * {
   margin-top: 30px;
 }
-#contato form {
-  max-width: 700px;
+.depoimentos .box-depoimentos .description {
+  line-height: 22px;
+  height: calc(22px * 6);
+}
+.carousel-espaco {
+  padding-top: 50px;
+}
+.carousel-espaco .container-contingencia {
+  max-width: 85%;
+}
+.carousel-espaco .absolute-background-espaco {
+  max-width: 57.67vw;
+  top: -12.5vw;
+}
+.carousel-espaco .absolute-mao-espaco {
+  top: -20px;
+}
+.cursos {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.cursos .container-contingencia {
+  max-width: 1180px;
+}
+.cursos .grid-cursos {
+  row-gap: 50px;
+}
+.cursos .box-cursos h3 {
+  line-height: 30px;
+}
+header .container-contingencia {
+  max-width: 1285px;
+}
+#banner-home {
+  height: 980px;
+}
+#banner-home .container-contingencia {
+  padding-top: 240px;
+}
+#banner-home .container-contingencia p {
+  font-size: 22px;
+}
+#objetivo {
+  padding-top: 45px;
+  padding-bottom: 57px;
+}
+#objetivo p {
+  line-height: 23px;
+}
+#objetivo h2 + * {
+  margin-top: 22px;
+}
+#objetivo p + * {
+  margin-top: 24px;
+}
+#espaco-home {
+  padding-bottom: 100px;
+}
+#espaco-home .absolute-background-espaco-home {
+  bottom: 25px;
+  max-width: 950px;
+}
+#espaco-home .absolute-icone-unidades {
+  right: 40px;
+  bottom: 25px;
+  max-width: 8.44vw;
+}
+#espaco-home .container-contingencia {
+  max-width: 1380px;
+}
+#espaco-home .text p + * {
+  margin-top: 60px;
+}
+#espaco-home .owl-carousel .owl-stage {
+  right: 440px;
+}
+#espaco-home .owl-carousel .owl-item {
+  width: 455px !important;
+}
+#tratamento-home {
+  padding-top: 60px;
+}
+#depoimentos-home {
+  padding-top: 55px;
+  padding-bottom: 60px;
+}
+#depoimentos-home .bg-depoimentos {
+  max-width: 1480px;
+}
+#depoimentos-home .absolute-aviao {
+  position: absolute;
+  top: 2.91vw;
+  right: 0;
+  max-width: 15.88vw;
+}
+#depoimentos-home h2 + * {
+  margin-top: 25px;
+}
+#cursos-home {
+  padding-top: 60px;
+}
+#materiais-home p + * {
+  margin-top: 28px;
 }
 #dados-curso {
   padding-top: 10px;
@@ -48,25 +178,6 @@ header .container-contingencia {
 #banner-servicos .container-contingencia {
   max-width: 1180px;
   padding-bottom: 175px;
-}
-#tratamento {
-  padding-top: 35px;
-}
-#tratamento h2 + * {
-  margin-top: 10px;
-}
-#tratamento p + * {
-  margin-top: 37px;
-}
-#tratamento .container-contingencia {
-  max-width: 1200px;
-}
-#tratamento .box-icones img {
-  max-width: 125px;
-}
-#tratamento .absolute-tratamento-left {
-  max-width: 6vw;
-  bottom: -30px;
 }
 #sobre-programa .container-contingencia {
   max-width: 1300px;
@@ -110,19 +221,22 @@ header .container-contingencia {
 #missao {
   padding-top: 50px;
 }
-#rede-social {
-  padding-bottom: 20px;
+#unidades .container-contingencia {
+  max-width: 1000px;
+  row-gap: 50px;
+  column-gap: 25px;
 }
-#depoimentos {
-  padding-top: 20px;
+#unidades .absolute-image-unidades-left-0 {
+  bottom: 32%;
+  max-width: 5vw;
 }
-#depoimentos .container-contingencia {
-  max-width: 1200px;
+#unidades .absolute-image-unidades-right-0 {
+  top: 21%;
+  max-width: 7vw;
 }
-#depoimentos h2 + * {
-  margin-top: 30px;
+#unidades .image + * {
+  margin-top: 20px;
 }
-#depoimentos .box-depoimentos .description {
-  line-height: 22px;
-  height: calc(22px * 6);
+#banner-materiais {
+  padding-bottom: 140px;
 }

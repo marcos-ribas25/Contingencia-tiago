@@ -1,14 +1,25 @@
+//COMPONENTES
 .bt.full {
   max-width: 460px;
 }
 
 .logo {
-  max-width: 215px;
+  max-width: 190px;
 }
 
-header {
+.contato {
+  padding-top: 50px;
+
   .container-contingencia {
-    max-width: 1285px;
+    max-width: 1200px;
+  }
+
+  h2+* {
+    margin-top: 25px;
+  }
+
+  p+* {
+    margin-top: 35px;
   }
 }
 
@@ -24,54 +35,12 @@ header {
   }
 }
 
-
-//Page contato
-#contato {
-  padding-top: 90px;
-
-  .container-contingencia {
-    max-width: 1200px;
-  }
-
-  .absolute-image-left {
-    max-width: 7vw;
-    bottom: -33px;
-  }
-
-  .absolute-image-right {
-    bottom: -58px;
-  }
-
-  h2+* {
-    margin-top: 30px;
-  }
-
-  form {
-    max-width: 700px;
-  }
+.banner-text {
+  padding-top: 260px;
+  padding-bottom: 130px;
 }
 
-//Page curso 
-#dados-curso {
-  padding-top: 10px;
-  padding-bottom: 50px;
-
-  .container-contingencia {
-    max-width: 1330px;
-  }
-}
-
-//Page servicos 
-#banner-servicos {
-  height: 745px;
-
-  .container-contingencia {
-    max-width: 1180px;
-    padding-bottom: 175px;
-  }
-}
-
-#tratamento {
+.tratamento {
   padding-top: 35px;
 
   h2+* {
@@ -98,6 +67,191 @@ header {
   }
 }
 
+.rede-social {
+  padding-bottom: 20px;
+}
+
+.depoimentos {
+  padding-top: 20px;
+  padding-bottom: 75px;
+
+  .container-contingencia {
+    max-width: 1200px;
+  }
+
+  h2+* {
+    margin-top: 30px;
+  }
+
+  .box-depoimentos {
+    .description {
+      line-height: 22px;
+      height: calc(22px * 6);
+    }
+  }
+}
+
+.carousel-espaco {
+  padding-top: 50px;
+
+  .container-contingencia {
+    max-width: 85%;
+  }
+
+  .absolute-background-espaco {
+    max-width: 57.67vw;
+    top: -12.5vw;
+  }
+
+  .absolute-mao-espaco {
+    top: -20px;
+  }
+}
+
+.cursos {
+  padding-bottom: 50px;
+  padding-top: 30px;
+
+  .container-contingencia {
+    max-width: 1180px;
+  }
+
+  .grid-cursos {
+    row-gap: 50px;
+  }
+
+  .box-cursos {
+    h3 {
+      line-height: 30px;
+    }
+  }
+}
+
+header {
+  .container-contingencia {
+    max-width: 1285px;
+  }
+}
+
+//PAGE HOME 
+#banner-home {
+  height: 980px;
+
+  .container-contingencia {
+    padding-top: 240px;
+
+    p {
+      font-size: 22px;
+    }
+  }
+}
+
+#objetivo {
+  padding-top: 45px;
+  padding-bottom: 57px;
+
+  p {
+    line-height: 23px;
+  }
+
+  h2+* {
+    margin-top: 22px;
+  }
+
+  p+* {
+    margin-top: 24px;
+  }
+}
+
+#espaco-home {
+  padding-bottom: 100px;
+
+  .absolute-background-espaco-home {
+    bottom: 25px;
+    max-width: 950px;
+  }
+
+  .absolute-icone-unidades {
+    right: 40px;
+    bottom: 25px;
+    max-width: 8.44vw;
+  }
+
+  .container-contingencia {
+    max-width: 1380px;
+  }
+
+  .text {
+    p+* {
+      margin-top: 60px;
+    }
+  }
+
+  .owl-carousel {
+    .owl-stage {
+      right: 440px;
+    }
+
+    .owl-item {
+      width: 455px !important;
+    }
+  }
+}
+
+#tratamento-home {
+  padding-top: 60px;
+}
+
+#depoimentos-home {
+  padding-top: 55px;
+  padding-bottom: 60px;
+
+  .bg-depoimentos {
+    max-width: 1480px;
+  }
+
+  .absolute-aviao {
+    position: absolute;
+    top: 2.91vw;
+    right: 0;
+    max-width: 15.88vw;
+  }
+
+  h2+* {
+    margin-top: 25px;
+  }
+}
+
+#cursos-home {
+  padding-top: 60px;
+}
+
+#materiais-home {
+  p+* {
+    margin-top: 28px;
+  }
+}
+
+//PAGE CURSO
+#dados-curso {
+  padding-top: 10px;
+  padding-bottom: 50px;
+
+  .container-contingencia {
+    max-width: 1330px;
+  }
+}
+
+//PAGE SERVICOS 
+#banner-servicos {
+  height: 745px;
+
+  .container-contingencia {
+    max-width: 1180px;
+    padding-bottom: 175px;
+  }
+}
+
 #sobre-programa {
   .container-contingencia {
     max-width: 1300px;
@@ -113,8 +267,7 @@ header {
   }
 }
 
-
-//Page sobre 
+//PAGE SOBRE 
 #banner-sobre {
   height: 745px;
 
@@ -160,27 +313,30 @@ header {
   padding-top: 50px;
 }
 
-#rede-social {
-  padding-bottom: 20px;
+//PAGE UNIDADES 
+#unidades {
+  .container-contingencia {
+    max-width: 1000px;
+    row-gap: 50px;
+    column-gap: 25px;
+  }
+
+  .absolute-image-unidades-left-0 {
+    bottom: 32%;
+    max-width: 5vw;
+  }
+
+  .absolute-image-unidades-right-0 {
+    top: 21%;
+    max-width: 7vw;
+  }
+
+  .image+* {
+    margin-top: 20px;
+  }
 }
 
-#depoimentos {
-  padding-top: 20px;
-
-  .container-contingencia {
-    max-width: 1200px;
-  }
-
-  h2+* {
-    margin-top: 30px;
-  }
-
-  .box-depoimentos {
-    .description {
-      line-height: 22px;
-      height: calc(22px * 6);
-    }
-  }
-
-
+//PAGE MATERIAIS
+#banner-materiais {
+  padding-bottom: 140px;
 }

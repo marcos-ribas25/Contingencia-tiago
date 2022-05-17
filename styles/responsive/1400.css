@@ -1,18 +1,12 @@
 .bt {
   max-width: 285px;
-  height: 46px;
+  height: 40px;
 }
 .bt.full {
   max-width: 350px;
 }
 .logo {
-  max-width: 190px;
-}
-header {
-  padding-bottom: 25px;
-}
-header .container-contingencia {
-  max-width: 1140px;
+  max-width: 160px;
 }
 .banner-interna {
   height: 685px;
@@ -30,27 +24,235 @@ header .container-contingencia {
 .banner-interna h2 + * {
   margin-top: 20px;
 }
+.banner-text {
+  padding-top: 230px;
+  padding-bottom: 100px;
+}
+.contato {
+  padding-top: 50px;
+}
+.contato .absolute-mao-contato {
+  right: 5.59vw;
+  max-width: 45.19vw;
+}
+.contato .container-contingencia {
+  max-width: 1085px;
+}
+.contato h2 + * {
+  margin-top: 20px;
+}
+.contato p + * {
+  margin-top: 30px;
+}
+.tratamento {
+  padding-top: 20px;
+}
+.tratamento h2 + * {
+  margin-top: 5px;
+}
+.tratamento p {
+  max-width: 910px;
+}
+.tratamento p + * {
+  margin-top: 20px;
+}
+.tratamento .container-contingencia {
+  max-width: 1060px;
+}
+.tratamento .box-icones {
+  width: 139px;
+}
+.tratamento .box-icones img {
+  max-width: 100px;
+  margin-top: 15px;
+}
+.tratamento .box-icones h3 {
+  font-size: 15px;
+}
+.tratamento .absolute-tratamento-left {
+  max-width: 5.5vw;
+  bottom: 10px;
+}
+.rede-social .container-contingencia {
+  padding-top: 125px;
+}
+.rede-social h2 + * {
+  margin-top: 20px;
+}
+.depoimentos {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.depoimentos .container-contingencia {
+  max-width: 1000px;
+}
+.depoimentos h2 + * {
+  margin-top: 20px;
+}
+.depoimentos .box-depoimentos {
+  padding: 3vw;
+}
+.depoimentos .box-depoimentos .description {
+  line-height: 20px;
+  height: calc(20px * 4);
+}
+.carousel-espaco {
+  padding-top: 40px;
+}
+.carousel-espaco .container-contingencia {
+  gap: 40px;
+}
+.carousel-espaco .owl-carousel {
+  width: calc(100% - 390px - 40px);
+}
+.carousel-espaco .text p + * {
+  margin-top: 20px;
+}
+.materiais {
+  padding-bottom: 80px;
+  padding-top: 33px;
+}
+.materiais p + * {
+  margin-top: 40px;
+}
+.materiais .container-contingencia {
+  max-width: 1020px;
+}
+.materiais .container-materiais .box-materiais img {
+  max-width: 200px;
+}
+.materiais .container-materiais .box-materiais a {
+  max-width: 180px;
+  height: 42px;
+  font-size: 17px;
+}
+.cursos .box-cursos h3 {
+  line-height: 28px;
+}
+header {
+  padding-bottom: 25px;
+}
+header .container-contingencia {
+  max-width: 1140px;
+}
 footer .container-contingencia {
   max-width: 1185px;
 }
-#contato {
+#banner-home {
+  height: 880px;
+}
+#banner-home .container-contingencia {
+  padding-top: 220px;
+  max-width: 900px;
+}
+#banner-home .container-contingencia p {
+  font-size: 20px;
+}
+#banner-home .bt.full {
+  max-width: 400px;
+}
+#objetivo {
+  padding-top: 40px;
+  padding-bottom: 54px;
+}
+#objetivo .text {
+  max-width: 530px;
+}
+#objetivo p {
+  line-height: 22px;
+}
+#objetivo h2 + * {
+  margin-top: 13px;
+}
+#objetivo p + * {
+  margin-top: 20px;
+}
+#espaco-home {
+  padding-bottom: 45px;
+}
+#espaco-home .absolute-background-espaco-home {
+  bottom: -10px;
+  max-width: 850px;
+}
+#espaco-home .absolute-icone-unidades {
+  right: 40px;
+  bottom: 45px;
+  max-width: 8.44vw;
+}
+#espaco-home .absolute-nuvem-espaco {
+  left: 110px;
+}
+#espaco-home .container-contingencia {
+  max-width: 1200px;
+  gap: 60px;
+}
+#espaco-home .text {
+  max-width: 490px;
+  width: 100%;
+}
+#espaco-home .text p {
+  max-width: 470px;
+}
+#espaco-home .text p + * {
+  margin-top: 40px;
+}
+#espaco-home .owl-carousel .owl-stage {
+  right: 445px;
+}
+#espaco-home .owl-carousel .owl-item {
+  width: 395px !important;
+}
+#tratamento-home {
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+#depoimentos-home {
   padding-top: 45px;
+  padding-bottom: 50px;
 }
-#contato .container-contingencia {
-  max-width: 1085px;
+#depoimentos-home .bg-depoimentos {
+  max-width: 1280px;
 }
-#contato .absolute-image-left {
-  max-width: 6vw;
-  bottom: -33px;
+#depoimentos-home .absolute-aviao {
+  position: absolute;
+  top: 2.91vw;
+  right: 0;
+  max-width: 15.88vw;
 }
-#contato .absolute-image-right {
-  bottom: -62px;
+#depoimentos-home h2 + * {
+  margin-top: 20px;
 }
-#contato h2 + * {
+#cursos-home {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+#cursos-home .icone-absolute-cursos {
+  bottom: -180px;
+}
+#cursos-home h2 + * {
   margin-top: 25px;
 }
-#contato form {
-  max-width: 650px;
+#rede-home {
+  padding-bottom: 30px;
+}
+#rede-home .absolute-tratamento-home {
+  bottom: -240px;
+}
+#materiais-home {
+  padding-bottom: 55px;
+  padding-top: 30px;
+}
+#materiais-home p {
+  max-width: 793px;
+}
+#materiais-home h2 + * {
+  margin-top: 16px;
+}
+#materiais-home p + * {
+  margin-top: 26px;
+}
+#contato-home {
+  padding-top: 60px;
 }
 #dados-curso {
   padding-bottom: 40px;
@@ -80,37 +282,9 @@ footer .container-contingencia {
   max-width: 990px;
   padding-bottom: 135px;
 }
-#tratamento {
-  padding-top: 20px;
-}
-#tratamento h2 + * {
-  margin-top: 5px;
-}
-#tratamento p {
-  max-width: 910px;
-}
-#tratamento p + * {
-  margin-top: 20px;
-}
-#tratamento .container-contingencia {
-  max-width: 1060px;
-}
-#tratamento .box-icones {
-  width: 139px;
-}
-#tratamento .box-icones img {
-  max-width: 100px;
-  margin-top: 15px;
-}
-#tratamento .box-icones h3 {
-  font-size: 15px;
-}
-#tratamento .absolute-tratamento-left {
-  max-width: 5.5vw;
-  bottom: 10px;
-}
 #sobre-programa {
   padding-top: 15px;
+  padding-bottom: 30px;
 }
 #sobre-programa .container-contingencia {
   max-width: 1115px;
@@ -132,6 +306,19 @@ footer .container-contingencia {
 }
 #sobre-programa .text-image:nth-child(even) {
   padding-top: 35px;
+}
+#espaco-servicos {
+  padding-top: 30px;
+}
+#espaco-servicos .absolute-background-espaco {
+  max-width: 70vw;
+  bottom: -5vw;
+  top: unset;
+}
+#espaco-servicos .absolute-mao-espaco {
+  bottom: -20px;
+  max-width: 13.44vw;
+  top: unset;
 }
 #banner-sobre {
   height: 680px;
@@ -195,25 +382,45 @@ footer .container-contingencia {
 #missao .icones + * {
   margin-top: 40px;
 }
-#rede-social .container-contingencia {
-  padding-top: 100px;
+#unidades {
+  padding-bottom: 50px;
 }
-#rede-social h2 + * {
-  margin-top: 20px;
+#unidades .container-contingencia {
+  max-width: 900px;
+  row-gap: 40px;
+  column-gap: 20px;
 }
-#depoimentos {
-  padding-top: 20px;
+#unidades .image + * {
+  margin-top: 18px;
 }
-#depoimentos .container-contingencia {
-  max-width: 1000px;
+#unidades .text a {
+  max-width: 360px;
 }
-#depoimentos h2 + * {
-  margin-top: 20px;
+#unidades .text h3 + * {
+  margin-top: 10px;
 }
-#depoimentos .box-depoimentos {
-  padding: 3vw;
+#unidades .text a + * {
+  margin-top: 9px;
 }
-#depoimentos .box-depoimentos .description {
-  line-height: 20px;
-  height: calc(20px * 4);
+#cursos-interna {
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+#cursos-interna .container-contingencia {
+  max-width: 980px;
+}
+#cursos-interna p + * {
+  margin-top: 30px;
+}
+#cursos-interna .grid-cursos {
+  row-gap: 40px;
+}
+#cursos-interna .image + * {
+  margin-top: 17px;
+}
+#cursos-interna .box-cursos h3 + * {
+  margin-top: 17px;
+}
+#banner-materiais {
+  padding-bottom: 115px;
 }

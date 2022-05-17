@@ -1,6 +1,7 @@
+//COMPONENTES
 .bt {
   max-width: 285px;
-  height: 46px;
+  height: 40px;
 }
 
 .bt.full {
@@ -8,15 +9,7 @@
 }
 
 .logo {
-  max-width: 190px;
-}
-
-header {
-  .container-contingencia {
-    max-width: 1140px;
-  }
-
-  padding-bottom: 25px;
+  max-width: 160px;
 }
 
 .banner-interna {
@@ -35,87 +28,41 @@ header {
     max-width: 593px;
   }
 
-  h2 + * {
+  h2+* {
     margin-top: 20px;
   }
 }
 
-footer {
-  .container-contingencia {
-    max-width: 1185px;
-  }
+.banner-text {
+  padding-top: 230px;
+  padding-bottom: 100px;
 }
 
-//Page contato
-#contato {
-  padding-top: 45px;
+.contato {
+  padding-top: 50px;
+
+  .absolute-mao-contato {
+    right: 5.59vw;
+    max-width: 45.19vw;
+  }
 
   .container-contingencia {
     max-width: 1085px;
   }
 
-  .absolute-image-left {
-    max-width: 6vw;
-    bottom: -33px;
+  h2+* {
+    margin-top: 20px;
   }
 
-  .absolute-image-right {
-    bottom: -62px;
-  }
-
-  h2 + * {
-    margin-top: 25px;
-  }
-
-  form {
-    max-width: 650px;
+  p+*{
+    margin-top: 30px;
   }
 }
 
-//Page curso
-#dados-curso {
-  padding-bottom: 40px;
-
-  .container-contingencia {
-    align-items: center;
-    max-width: 1180px;
-  }
-
-  .text {
-    max-width: 685px;
-
-    p + * {
-      margin-top: 5px;
-    }
-  }
-
-  .vagas {
-    max-width: 390px;
-    padding-top: 55px;
-    padding-left: 60px;
-
-    .text {
-      h3 + * {
-        margin-top: 20px;
-      }
-    }
-  }
-}
-
-//Page servicos
-#banner-servicos {
-  height: 660px;
-
-  .container-contingencia {
-    max-width: 990px;
-    padding-bottom: 135px;
-  }
-}
-
-#tratamento {
+.tratamento {
   padding-top: 20px;
 
-  h2 + * {
+  h2+* {
     margin-top: 5px;
   }
 
@@ -123,7 +70,7 @@ footer {
     max-width: 910px;
   }
 
-  p + * {
+  p+* {
     margin-top: 20px;
   }
 
@@ -150,8 +97,301 @@ footer {
   }
 }
 
+.rede-social {
+  .container-contingencia {
+    padding-top: 125px;
+  }
+
+  h2+* {
+    margin-top: 20px;
+  }
+}
+
+.depoimentos {
+  padding-top: 20px;
+  padding-bottom: 60px;
+
+  .container-contingencia {
+    max-width: 1000px;
+  }
+
+  h2+* {
+    margin-top: 20px;
+  }
+
+  .box-depoimentos {
+    padding: 3vw;
+
+    .description {
+      line-height: 20px;
+      height: calc(20px * 4);
+    }
+  }
+}
+
+.carousel-espaco {
+  padding-top: 40px;
+
+  .container-contingencia {
+    gap: 40px;
+  }
+
+  .owl-carousel {
+    width: calc(100% - 390px - 40px);
+  }
+
+  .text {
+    p+* {
+      margin-top: 20px;
+    }
+  }
+}
+
+.materiais {
+  padding-bottom: 80px;
+  padding-top: 33px;
+
+  p+* {
+    margin-top: 40px;
+  }
+
+  .container-contingencia {
+    max-width: 1020px;
+  }
+
+  .container-materiais {
+    .box-materiais {
+      img {
+        max-width: 200px;
+      }
+
+      a {
+        max-width: 180px;
+        height: 42px;
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+.cursos {
+  .box-cursos {
+    h3 {
+      line-height: 28px;
+    }
+  }
+}
+
+header {
+  .container-contingencia {
+    max-width: 1140px;
+  }
+
+  padding-bottom: 25px;
+}
+
+footer {
+  .container-contingencia {
+    max-width: 1185px;
+  }
+}
+
+//PAGE HOME 
+#banner-home {
+  height: 880px;
+
+  .container-contingencia {
+    padding-top: 220px;
+    max-width: 900px;
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .bt.full {
+    max-width: 400px;
+  }
+}
+
+#objetivo {
+  padding-top: 40px;
+  padding-bottom: 54px;
+
+  .text {
+    max-width: 530px;
+  }
+
+  p {
+    line-height: 22px;
+  }
+
+  h2+* {
+    margin-top: 13px;
+  }
+
+  p+* {
+    margin-top: 20px;
+  }
+}
+
+#espaco-home {
+  padding-bottom: 45px;
+
+  .absolute-background-espaco-home {
+    bottom: -10px;
+    max-width: 850px;
+  }
+
+  .absolute-icone-unidades {
+    right: 40px;
+    bottom: 45px;
+    max-width: 8.44vw;
+  }
+
+  .absolute-nuvem-espaco {
+    left: 110px;
+  }
+
+  .container-contingencia {
+    max-width: 1200px;
+    gap: 60px;
+  }
+
+  .text {
+    max-width: 490px;
+    width: 100%;
+
+    p {
+      max-width: 470px;
+    }
+
+    p+* {
+      margin-top: 40px;
+    }
+  }
+
+  .owl-carousel {
+    .owl-stage {
+      right: 445px;
+    }
+
+    .owl-item {
+      width: 395px !important;
+    }
+  }
+}
+
+#tratamento-home {
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+#depoimentos-home {
+  padding-top: 45px;
+  padding-bottom: 50px;
+
+  .bg-depoimentos {
+    max-width: 1280px;
+  }
+
+  .absolute-aviao {
+    position: absolute;
+    top: 2.91vw;
+    right: 0;
+    max-width: 15.88vw;
+  }
+
+  h2+* {
+    margin-top: 20px;
+  }
+}
+
+#cursos-home {
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+  .icone-absolute-cursos {
+    bottom: -180px;
+  }
+
+  h2+* {
+    margin-top: 25px;
+  }
+}
+
+#rede-home {
+  padding-bottom: 30px;
+
+  .absolute-tratamento-home {
+    bottom: -240px;
+  }
+}
+
+#materiais-home {
+  padding-bottom: 55px;
+  padding-top: 30px;
+
+  p {
+    max-width: 793px;
+  }
+
+  h2+* {
+    margin-top: 16px;
+  }
+
+  p+* {
+    margin-top: 26px;
+  }
+}
+
+#contato-home {
+  padding-top: 60px;
+}
+
+//PAGE CURSOS
+#dados-curso {
+  padding-bottom: 40px;
+
+  .container-contingencia {
+    align-items: center;
+    max-width: 1180px;
+  }
+
+  .text {
+    max-width: 685px;
+
+    p+* {
+      margin-top: 5px;
+    }
+  }
+
+  .vagas {
+    max-width: 390px;
+    padding-top: 55px;
+    padding-left: 60px;
+
+    .text {
+      h3+* {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+//PAGE SERVICOS
+#banner-servicos {
+  height: 660px;
+
+  .container-contingencia {
+    max-width: 990px;
+    padding-bottom: 135px;
+  }
+}
+
 #sobre-programa {
   padding-top: 15px;
+  padding-bottom: 30px;
 
   .container-contingencia {
     max-width: 1115px;
@@ -183,7 +423,23 @@ footer {
   }
 }
 
-//Page sobre
+#espaco-servicos {
+  padding-top: 30px;
+
+  .absolute-background-espaco {
+    max-width: 70vw;
+    bottom: -5vw;
+    top: unset;
+  }
+
+  .absolute-mao-espaco {
+    bottom: -20px;
+    max-width: 13.44vw;
+    top: unset;
+  }
+}
+
+//PAGE SOBRE
 #banner-sobre {
   height: 680px;
 
@@ -200,7 +456,7 @@ footer {
     font-size: 49px;
   }
 
-  h2 + * {
+  h2+* {
     margin-top: 20px;
   }
 
@@ -240,7 +496,7 @@ footer {
       max-width: 555px;
       padding-top: 0;
 
-      h3 + * {
+      h3+* {
         margin-top: 0;
       }
     }
@@ -262,38 +518,69 @@ footer {
     max-width: 1005px;
   }
 
-  .icones + * {
+  .icones+* {
     margin-top: 40px;
   }
 }
 
-#rede-social {
+//PAGE UNIDADES 
+#unidades {
+  padding-bottom: 50px;
+
   .container-contingencia {
-    padding-top: 100px;
+    max-width: 900px;
+    row-gap: 40px;
+    column-gap: 20px;
   }
 
-  h2 + * {
-    margin-top: 20px;
+  .image+* {
+    margin-top: 18px;
+  }
+
+  .text {
+    a {
+      max-width: 360px;
+    }
+
+    h3+* {
+      margin-top: 10px;
+    }
+
+    a+* {
+      margin-top: 9px;
+    }
   }
 }
 
-#depoimentos {
-  padding-top: 20px;
+//PAGE CURSOS
+#cursos-interna {
+  padding-bottom: 40px;
+  padding-top: 25px;
 
   .container-contingencia {
-    max-width: 1000px;
+    max-width: 980px;
   }
 
-  h2 + * {
-    margin-top: 20px;
+  p+* {
+    margin-top: 30px;
   }
 
-  .box-depoimentos {
-    padding: 3vw;
-    
-    .description {
-      line-height: 20px;
-      height: calc(20px * 4);
+  .grid-cursos {
+    row-gap: 40px;
+  }
+
+  .image+* {
+    margin-top: 17px;
+  }
+
+  .box-cursos {
+    h3+* {
+      margin-top: 17px;
     }
   }
+}
+
+//PAGE MATERIAIS
+#banner-materiais {
+  padding-bottom: 115px;
 }

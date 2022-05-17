@@ -1,14 +1,276 @@
+//COMPONENTES
 .bt {
   max-width: 230px;
   height: 40px;
 }
 
-.bt.full .logo {
+.bt.full {
   max-width: 170px;
 }
 
 .logo {
-  max-width: 140px;
+  max-width: 120px;
+}
+
+.banner-text {
+  padding-top: 155px;
+  padding-bottom: 70px;
+}
+
+.box-menu.curso-interna {
+  background-color: var(--branco);
+  color: var(--azul);
+}
+
+.contato {
+  padding-bottom: 40px;
+  padding-top: 25px;
+
+  .absolute-mao-contato {
+    display: none;
+  }
+
+  .container-contingencia {
+    max-width: 650px;
+  }
+
+  h2, p {
+    text-align: center;
+  }
+
+  p {
+    max-width: 415px;
+    margin: 0 auto;
+  }
+
+  p+* {
+    margin-top: 10px;
+  }
+
+  h2+* {
+    margin-top: 10px;
+  }
+
+  .contato-filiais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.banner-interna {
+  height: 750px;
+
+  .container-contingencia {
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 95px;
+  }
+
+  .text {
+    text-align: center;
+    max-width: 555px;
+
+    a {
+      margin: 25px auto 0;
+    }
+  }
+
+  .image {
+    max-width: 430px;
+  }
+}
+
+.rede-social {
+  padding-bottom: 10px;
+
+  .container-contingencia {
+    padding-top: 85px;
+    padding-left: 110px;
+    max-width: 720px;
+  }
+
+  h2 {
+    font-size: 29px;
+    max-width: 292px;
+  }
+
+  h2+* {
+    margin-top: 15px;
+  }
+
+  h2+* {
+    margin-top: 20px;
+  }
+}
+
+.depoimentos {
+  padding-bottom: 30px;
+
+  h2 {
+    text-align: center;
+  }
+
+  h2+* {
+    margin-top: 10px;
+  }
+
+  .owl-theme {
+    .owl-nav {
+      margin-top: 0;
+    }
+  }
+
+  .absolute-depoimentos {
+    max-width: 151px;
+    right: 0;
+  }
+
+  .container-contingencia {
+    max-width: 400px;
+  }
+
+  .box-depoimentos {
+    padding: 20px;
+  }
+}
+
+.carousel-espaco {
+  padding-top: 25px;
+
+  .container-contingencia {
+    flex-direction: column;
+    align-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .text {
+    text-align: center;
+
+    h2+* {
+      margin-top: 15px;
+    }
+  }
+
+  .owl-carousel {
+    width: calc(100% - 90px - 60px);
+
+    .owl-nav {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .owl-stage {
+      width: 5000px !important;
+    }
+  }
+}
+
+.cursos {
+  .container-contingencia {
+    max-width: 780px;
+  }
+
+  .box-cursos {
+    h3 {
+      line-height: 24px;
+    }
+  }
+
+  p {
+    max-width: 640px;
+  }
+
+  p+* {
+    margin-top: 25px;
+  }
+
+  .grid-cursos {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 25px;
+  }
+
+  .image {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .image+* {
+    margin-top: 10px;
+  }
+
+  .box-cursos {
+    h3+* {
+      margin-top: 10px;
+    }
+  }
+}
+
+.materiais {
+  padding-bottom: 40px;
+  padding-top: 24px;
+
+  p+* {
+    margin-top: 30px;
+  }
+
+  .container-materiais {
+    .box-materiais {
+      img {
+        max-width: 160px;
+      }
+
+      a {
+        max-width: 140px;
+        height: 35px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.tratamento {
+  .container-contingencia {
+    max-width: 720px;
+  }
+
+  .absolute-tratamento-left {
+    display: none;
+  }
+
+  p {
+    line-height: 20px;
+  }
+
+  p+* {
+    margin-top: 25px;
+  }
+
+  .icones {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .box-icones {
+    max-width: 170px;
+    width: 100%;
+
+    img {
+      max-width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .seta {
+    transform: rotate(90deg);
+    margin-top: 0;
+  }
+}
+
+.owl-stage-outer {
+  border-radius: 10px;
 }
 
 header {
@@ -65,44 +327,183 @@ footer {
   }
 }
 
-//Page contato
-.box-menu.curso-interna {
-  background-color: var(--branco);
-  color: var(--azul);
-}
+//PAGE HOME 
+#objetivo {
+  padding-top: 30px;
+  padding-bottom: 60px;
 
-#contato {
-  padding-top: 25px;
+  .absolute-image-section-objetivo {
+    z-index: 2;
+  }
 
-  h2+* {
-    margin-top: 25px;
+  .container-contingencia {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
+  .text {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 48.95VW;
+
+
   }
 }
 
-//Page curso 
-.banner-interna {
-  height: 750px;
+#espaco-home {
+  padding-bottom: 20px;
+
+  .absolute-background-espaco-home {
+    top: -205px;
+    max-width: 785px;
+  }
+
+  .absolute-icone-unidades {
+    right: 40px;
+    top: 30px;
+    max-width: 8.44vw;
+  }
+
+  .absolute-nuvem-espaco {
+    left: 0;
+    top: -132px;
+  }
 
   .container-contingencia {
-    flex-direction: column;
+    max-width: 700px;
     gap: 30px;
-    padding-bottom: 95px;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 
   .text {
     text-align: center;
-    max-width: 555px;
+    margin: 0 auto;
+    max-width: 365px;
+    width: 100%;
 
-    a {
-      margin: 25px auto 0;
+    p {
+      max-width: 450px;
+    }
+
+    .bt {
+      height: 37px;
+      margin: 0 auto;
+    }
+
+    p+* {
+      margin-top: 20px !important;
+    }
+
+    h2+* {
+      margin-top: 15px;
     }
   }
 
-  .image {
-    max-width: 430px;
+  .owl-carousel {
+    margin: 0 auto;
+    width: 100%;
+
+    .owl-stage {
+      right: -65px;
+    }
+
+    .owl-item {
+      width: 350px !important;
+    }
   }
 }
 
+#tratamento-home {
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  .bt.full {
+    max-width: 260px;
+  }
+}
+
+#depoimentos-home {
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  .bg-depoimentos {
+    max-width: 1100px;
+    top: -10px;
+  }
+
+  .absolute-aviao {
+    position: absolute;
+    top: 2.91vw;
+    right: 0;
+    max-width: 15.88vw;
+  }
+
+  h2+* {
+    margin-top: 20px;
+  }
+}
+
+#cursos-home {
+  padding-bottom: 20px;
+
+  .icone-absolute-cursos {
+    display: none;
+  }
+
+  .grid-cursos {
+    display: block;
+  }
+
+  h2+* {
+    margin-top: 18px;
+  }
+
+  .owl-carousel {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-top: 15px;
+  }
+
+  .owl-item {
+    width: 335px !important;
+
+    .img {
+      border-radius: 10px;
+    }
+  }
+
+  .owl-stage {
+    width: 5000px !important;
+  }
+}
+
+#rede-home {
+  padding: 20px;
+
+  .absolute-tratamento-home {
+    bottom: -125px;
+  }
+}
+
+#materiais-home {
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+
+#contato-home {
+  padding-top: 30px;
+}
+
+//PAGE CURSO 
 #dados-curso {
   padding-bottom: 15px;
 
@@ -122,39 +523,27 @@ footer {
   }
 }
 
-//Page servicos 
-#banner-servicos {
-  height: 450px;
-  background-image: unset !important;
-  justify-content: center;
-
-  .container-contingencia {
-    position: absolute;
-    padding-bottom: 110px;
+//PAGE CURSOS
+#cursos-interna {
+  .absolute-image-unidades-left-0 {
+    max-width: 9.42vw;
+    bottom: 220px;
   }
 
-  .absolute-left {
-    top: 155px;
+  .absolute-image-unidades-right-0 {
+    max-width: 10.26vw;
+    top: 140px;
   }
-
-  .absolute-image {
-    width: 100%;
-    position: relative;
-
-    .absolute-mobile-top {
-      position: absolute;
-      width: 40vw;
-      top: 20px;
-      right: 0;
-    }
-  }
-
 }
 
-//Page sobre 
+//PAGE SOBRE 
 #banner-sobre {
   background-image: none !important;
   height: 550px;
+
+  .bt.full{
+    max-width: 310px;
+  }
 
   .absolute-banner-mobile {
     position: absolute;
@@ -166,7 +555,7 @@ footer {
     z-index: 2;
     max-width: 100%;
   }
-  
+
   .absolute-mobile-top {
     bottom: 55px;
     position: absolute;
@@ -262,32 +651,204 @@ footer {
   }
 }
 
-#rede-social {
-  padding-bottom: 10px;
+//PAGE UNIDADES 
+#unidades {
+  padding-bottom: 30px;
 
   .container-contingencia {
-    padding-top: 85px;
-    padding-left: 110px;
-    max-width: 720px;
+    max-width: 700px;
+    row-gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: -webkit-center;
+  }
+
+  .absolute-image-unidades-left-0 {
+    max-width: 75px;
+  }
+
+  .absolute-image-unidades-right-0 {
+    max-width: 75px;
+  }
+
+  .image {
+    max-width: 450px;
+  }
+
+  .image+* {
+    margin-top: 14px;
+  }
+
+  .text {
+    a {
+      max-width: 330px;
+    }
+
+    h3+* {
+      margin-top: 6px;
+    }
+
+    a+* {
+      margin-top: 7px;
+    }
+
+    svg+* {
+      margin-left: 11px;
+    }
+  }
+}
+
+#espaco-unidades {
+  .text {
+    margin: 0 auto;
+  }
+
+  .owl-carousel {
+    margin: 0 auto;
+  }
+}
+
+//PAGE SERVICOS
+#banner-servicos {
+  background-image: none !important;
+  height: 460px;
+
+  .absolute-banner-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+    z-index: 2;
+    max-width: 100%;
+  }
+
+  .absolute-mobile-top {
+    bottom: 25px;
+    position: absolute;
+    right: 0;
+    max-width: 43.95vw;
+    z-index: 2;
+  }
+
+  .container-contingencia {
+    justify-content: center;
+    padding-bottom: 105px;
+  }
+
+  .bt.full {
+    margin: 15px auto 0;
+    max-width: 300px;
+  }
+
+  .text {
+    text-align: center;
+    max-width: 559px;
   }
 
   h2 {
-    font-size: 29px;
-    max-width: 292px;
+    font-size: 42px;
   }
 
   h2+* {
     margin-top: 15px;
   }
 
-  h2+* {
-    margin-top: 20px;
+  .absolute-left {
+    max-width: 6.5vw;
+    z-index: 3;
   }
 }
 
-#depoimentos  {
+#sobre-programa {
+  padding-bottom: 20px;
+
   .container-contingencia {
-    max-width: 400px;
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .background-absolute-text {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    max-width: 595px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
 }
 
+#espaco-servicos {
+  padding-top: 20px;
+
+  .container-contingencia {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .text {
+      width: unset;
+      color: var(--azul);
+
+      span {
+        color: var(--laranja);
+      }
+
+      p+* {
+        margin-top: 15px;
+      }
+
+      h2+* {
+        margin-top: 10px;
+      }
+
+      a {
+        margin: 15px auto 0;
+        color: var(--branco);
+        border-color: var(--azul);
+        background-color: var(--azul);
+      }
+    }
+  }
+
+  .absolute-background-espaco {
+    bottom: -3vw;
+  }
+}
+
+#contato-servicos {
+  padding-top: 50px !important;
+}
+
+//PAGE MATERIAIS
+#banner-materiais {
+  padding-bottom: 75px;
+}
+
+//PAGE BLOG
+#blog {
+  padding-top: 40px;
+}
+
+.pagination {
+  li {
+    max-width: 44px;
+    height: 44px;
+  }
+}
+
+//PAGE POST 
+#blog.post {
+  .bt-transp {
+    height: 38px;
+  }
+
+  .tags {
+    padding: 15px 20px;
+  }
+}

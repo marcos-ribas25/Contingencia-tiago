@@ -1,0 +1,99 @@
+#banner-home {
+  height: 575px;
+}
+#banner-home .container-contingencia {
+  padding-top: 135px;
+  max-width: 320px;
+}
+#banner-home .container-contingencia h1 {
+  font-size: 17px;
+}
+#banner-home .container-contingencia p {
+  font-size: 14.5px;
+  max-width: 500px;
+  line-height: 1.2;
+  margin: 0 auto;
+}
+#banner-home .container-contingencia p + * {
+  margin-top: 15px;
+}
+#banner-home .container-contingencia h1 + * {
+  margin-top: 15px;
+}
+#banner-home .container-contingencia .bt {
+  font-size: 10.5px;
+  max-width: 260px;
+  height: 32px;
+}
+#espaco-home .absolute-background-espaco-home {
+  top: -130px;
+  max-width: 660px;
+}
+#espaco-home .absolute-icone-unidades {
+  display: none;
+}
+#espaco-home .container-contingencia {
+  max-width: 320px;
+}
+#espaco-home .owl-carousel .owl-item {
+  width: 295px !important;
+}
+#espaco-home .owl-carousel .owl-item.active {
+  width: 295px !important;
+  margin-left: -5px;
+}
+#depoimentos-home .bg-depoimentos {
+  height: 120vw;
+}
+#contato-interna h2 {
+  font-size: 25px;
+}
+#contato-interna h2 + * {
+  margin-top: 0;
+}
+#contato-interna .contato-filiais h2 {
+  font-size: 22px;
+}
+#contato-interna nav .bg-icone {
+  width: 35px;
+  height: 35px;
+}
+#blog .content-preview h3,
+#blog.post .content-preview h3 {
+  font-size: 20px;
+}
+#blog .text-preview p,
+#blog.post .text-preview p {
+  line-height: 19px;
+  font-size: 13px;
+}
+#blog .author-info,
+#blog.post .author-info,
+#blog .date,
+#blog.post .date {
+  font-size: 12px;
+}
+#blog .date,
+#blog.post .date {
+  padding-top: 3px;
+}
+#blog.post .top-post {
+  padding-left: 10px;
+}
+#blog.post h2 {
+  font-size: 20px;
+}
+#blog.post .content-preview p,
+#blog.post .content-preview ul,
+#blog.post .content-preview li {
+  font-size: 14px;
+  line-height: 21px;
+}
+#blog.post .content-preview h3 {
+  line-height: 21px;
+  font-size: 19px;
+}
+#blog.post .author .author-info .author-picture {
+  width: 22px;
+  height: 22px;
+}

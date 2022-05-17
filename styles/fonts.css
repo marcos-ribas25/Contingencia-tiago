@@ -99,15 +99,18 @@ td {
   font-style: italic !important;
 }
 [class*='titulo-1'] {
-  font-size: 64px;
+  font-size: 58px;
 }
 [class*='titulo-2'] {
   font-size: 56px;
 }
+[class*="titulo-blog-2"] {
+  font-size: 40px;
+}
 [class*='titulo-3'] {
   font-size: 48px;
 }
-[class*='titulo-3.5'] {
+[class*='titulo-7'] {
   font-size: 32px;
 }
 [class*='titulo-4'] {
@@ -119,6 +122,9 @@ td {
 [class*='titulo-6'] {
   font-size: 16px;
 }
+[class*='paragrafo-home'] {
+  font-size: 24px;
+}
 [class*='paragrafo-1'] {
   font-size: 20px;
 }
@@ -127,6 +133,9 @@ td {
 }
 [class*='paragrafo-3'] {
   font-size: 16px;
+}
+[class*='paragrafo-4'] {
+  font-size: 14px;
 }
 [class*='link-1'] {
   font-size: 18px;
@@ -137,15 +146,38 @@ td {
 [class*='link-3'] {
   font-size: 14px;
 }
+@media only screen and (max-width: 1600px) {
+  [class*='titulo-1'] {
+    font-size: 54px;
+  }
+}
 @media only screen and (max-width: 1400px) {
+  [class*='titulo-1'] {
+    font-size: 47px;
+  }
   [class*='titulo-2'] {
     font-size: 51px;
   }
   [class*='titulo-3'] {
     font-size: 46px;
   }
+  [class*='titulo-7'] {
+    font-size: 30px;
+  }
   [class*='titulo-4'] {
     font-size: 23.5px;
+  }
+  [class*='titulo-5'] {
+    font-size: 19.5px;
+  }
+  [class*='titulo-6'] {
+    font-size: 15.5px;
+  }
+  [class*='paragrafo-home'] {
+    font-size: 23.5px;
+  }
+  [class*='paragrafo-1'] {
+    font-size: 19.5px;
   }
   [class*='paragrafo-2'] {
     font-size: 16px;
@@ -153,22 +185,49 @@ td {
   [class*='paragrafo-3'] {
     font-size: 15px;
   }
+  [class*='link-1'] {
+    font-size: 17.5px;
+  }
+  [class*='link-2'] {
+    font-size: 15.5px;
+  }
 }
 @media only screen and (max-width: 1200px) {
+  [class*='titulo-1'] {
+    font-size: 44px;
+  }
   [class*='titulo-2'] {
     font-size: 43px;
   }
   [class*='titulo-3'] {
     font-size: 42px;
   }
+  [class*='titulo-7'] {
+    font-size: 28px;
+  }
   [class*='titulo-4'] {
     font-size: 23px;
+  }
+  [class*='titulo-5'] {
+    font-size: 19px;
+  }
+  [class*='titulo-6'] {
+    font-size: 15px;
+  }
+  [class*='paragrafo-home'] {
+    font-size: 23px;
+  }
+  [class*='paragrafo-1'] {
+    font-size: 19px;
   }
   [class*='paragrafo-2'] {
     font-size: 15.5px;
   }
   [class*='paragrafo-3'] {
     font-size: 14px;
+  }
+  [class*='link-1'] {
+    font-size: 17px;
   }
   [class*='link-2'] {
     font-size: 15px;
@@ -178,20 +237,44 @@ td {
   }
 }
 @media only screen and (max-width: 1024px) {
+  [class*='titulo-1'] {
+    font-size: 43px;
+  }
   [class*='titulo-2'] {
     font-size: 41px;
   }
   [class*='titulo-3'] {
     font-size: 41px;
   }
+  [class*='titulo-7'] {
+    font-size: 26px;
+  }
   [class*='titulo-4'] {
     font-size: 22.5px;
+  }
+  [class*='titulo-5'] {
+    font-size: 18.5;
+  }
+  [class*='titulo-6'] {
+    font-size: 14.5;
+  }
+  [class*='paragrafo-home'] {
+    font-size: 22.5px;
+  }
+  [class*='paragrafo-1'] {
+    font-size: 18.5px;
   }
   [class*='paragrafo-2'] {
     font-size: 15px;
   }
   [class*='paragrafo-3'] {
     font-size: 13px;
+  }
+  [class*='paragrafo-4'] {
+    font-size: 13px;
+  }
+  [class*='link-1'] {
+    font-size: 16.5px;
   }
   [class*='link-2'] {
     font-size: 14px;
@@ -201,14 +284,21 @@ td {
   }
 }
 @media only screen and (max-width: 768px) {
+  [class*='titulo-1'] {
+    font-size: 27px;
+  }
   [class*='titulo-2'] {
-    font-size: 33px;
+    font-size: 30px;
+    line-height: 35px;
   }
   [class*='titulo-3'] {
     font-size: 34px;
   }
   [class*='titulo-4'] {
     font-size: 22px;
+  }
+  [class*='paragrafo-4'] {
+    font-size: 11.5px;
   }
   [class*='link-2'] {
     font-size: 13.5px;
@@ -223,6 +313,9 @@ td {
   }
   [class*='titulo-4'] {
     font-size: 19px;
+  }
+  [class*='paragrafo-4'] {
+    font-size: 11px;
   }
   [class*='link-2'] {
     font-size: 13px;
